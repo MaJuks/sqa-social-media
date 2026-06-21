@@ -1,0 +1,15 @@
+{
+  "name": "sqa-social-media-tests",
+  "version": "1.0.0",
+  "description": "Testes E2E e de API para o projeto SQA Social Media",
+  "scripts": {
+    "test": "playwright test",
+    "test:e2e": "playwright test tests/e2e",
+    "test:api": "playwright test tests/api",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}
